@@ -1,3 +1,25 @@
-.title {
-  color: blue;
+body {
+    font-family: 'Roboto', sans-serif;
+  color: black;
+  background: white;
+    
 }
+:root {
+
+}
+
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+span {
+    color:#2196F3 ;
+}
+
+
+
+#2F303A
+#ECECEC
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;

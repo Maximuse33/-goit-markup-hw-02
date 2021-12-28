@@ -75,6 +75,7 @@ span {
   text-transform: uppercase;
 }
 .hero-btn {
+  font-family: inherit;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
@@ -134,8 +135,9 @@ span {
   line-height: 1.2;
   letter-spacing: 0.03em;
 }
-/*--------- FILTER PORTFOLIO---------*/
+/*--------- FILTER PORTFOLIO.html---------*/
 .filter-btn {
+  font-style: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
@@ -144,7 +146,7 @@ span {
   background-color: var(--btn-color);
   border-radius: 4px;
 }
-/*--------- MAIN PORTFOLIO---------*/
+/*--------- MAIN PORTFOLIO.html---------*/
 .main-title {
   font-weight: bold;
   font-size: 18px;

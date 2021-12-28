@@ -28,7 +28,7 @@ span {
   color: var(--selection-color);
 }
 .header-logo {
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   color: #000000;
   font-size: 26px;
@@ -168,7 +168,7 @@ span {
   background-color: var(--hero-color);
 }
 .footer-logo {
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
@@ -198,16 +198,3 @@ span {
   border: 0;
   clip: rect(0 0 0 0);
 }
-
-/* 
-selection color  #2196f3
-our team F5F4FA
-#757575
-#2F303A
-#ECECEC
-font-family: 'Raleway', sans-serif;
-font-family: 'Roboto', sans-serif;
-
-.button.primary (portfolio)
-.button.secondary
- */

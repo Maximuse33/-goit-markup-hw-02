@@ -29,7 +29,7 @@ span {
 }
 .header-logo {
   font-family: Raleway;
-  font-weight: bold;
+  font-weight: 700;
   color: #000000;
   font-size: 26px;
   line-height: 1.2;
@@ -76,7 +76,7 @@ span {
 }
 .hero-btn {
   font-family: inherit;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
@@ -91,7 +91,7 @@ span {
 }
 /*--------- MAIN BENEFITS INDEX.html---------*/
 .benefits-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   color: var(--title-text-color);
@@ -106,7 +106,7 @@ span {
 }
 /*--------- MAIN ABOUT INDEX.html---------*/
 .about-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   letter-spacing: 0.03em;
@@ -117,7 +117,7 @@ span {
   background-color: #f5f4fa;
 }
 .team-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   letter-spacing: 0.03em;
@@ -146,9 +146,13 @@ span {
   background-color: var(--btn-color);
   border-radius: 4px;
 }
+.filter-btn:hover {
+  color: var(--primary-bg-color);
+  background-color: var(--selection-color);
+}
 /*--------- MAIN PORTFOLIO.html---------*/
 .main-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -165,7 +169,7 @@ span {
 }
 .footer-logo {
   font-family: Raleway;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
@@ -183,6 +187,16 @@ span {
   line-height: 24px;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
 }
 
 /* 
